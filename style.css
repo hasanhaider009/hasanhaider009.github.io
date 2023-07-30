@@ -1,0 +1,22 @@
+img{
+    border-radius: 50%
+}
+
+.first{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(114,114,114,1) 100%);
+}
+.second{
+    background-image:  repeating-radial-gradient(circle at 0 0, transparent 0, #ffffff 54px), repeating-linear-gradient(#fcfcfc, #fcfcfc);
+background-color: #ffffff;
+}
+
+.third{
+    background:
+      conic-gradient(at 50% 25%,#0000 75%,#ffffff 0),conic-gradient(at 50% 25%,#0000 75%,#ffffff 0) 47px 47px,
+      conic-gradient(at 50% 25%,#0000 75%,#ffffff 0) calc(2*47px) calc(2*47px),
+      conic-gradient(at 50% 25%,#0000 75%,#ffffff 0) calc(3*47px) calc(3*47px),
+      repeating-linear-gradient(135deg,#f4f4f4 0 12.5%,#fcfcfc 0 25%);
+background-size: calc(4 * 47px) calc(4*47px);
+
+}
